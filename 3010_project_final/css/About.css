@@ -1,0 +1,21 @@
+p {
+  width: 50%;
+  margin: auto;
+  line-height: 1.6;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pen {
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}

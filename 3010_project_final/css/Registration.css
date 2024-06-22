@@ -1,0 +1,76 @@
+#errDate {
+  margin-left: 20%;
+}
+form {
+  margin-top: 20%;
+}
+.textInput {
+  width: 90%;
+}
+#dateOfBirth {
+  margin-left: 15%;
+}
+#dateOfBirthLabel {
+  margin-left: 17%;
+}
+#btns {
+  margin-left: 15%;
+}
+#label {
+  margin-left: 2%;
+}
+.radio-field {
+  margin-left: 30%;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  form {
+    margin-top: 20%;
+  }
+  .textInput {
+    width: 80%;
+  }
+
+  .radio-field {
+    margin-left: 20%;
+  }
+}
+@media (min-width: 768px) {
+  /* tablet*/
+  form {
+    margin-top: 10%;
+  }
+  .textInput {
+    width: 70%;
+  }
+
+  .radio-field {
+    margin-left: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  /* laptop*/
+  form {
+    margin-top: 5%;
+  }
+  .textInput {
+    width: 60%;
+  }
+
+  .radio-field {
+    margin-left: 15%;
+  }
+}
+@media (min-width: 1400px) {
+  /* desktops*/
+  form {
+    margin-top: 5%;
+  }
+  .textInput {
+    width: 50%;
+  }
+
+  .radio-field {
+    margin-left: 10%;
+  }
+}

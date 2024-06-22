@@ -1,0 +1,34 @@
+#StartBtn {
+  margin-top: 2%;
+  margin-left: 25%;
+}
+#title {
+  margin-top: 10%;
+  margin-left: 25%;
+  line-height: 1.5;
+  width: 50%;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  #title {
+    margin-left: 30%;
+  }
+}
+@media (min-width: 768px) {
+  /* tablets*/
+  #title {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 1200px) {
+  /* Laptops*/
+  #title {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1400px) {
+  /* desktop*/
+  #title {
+    margin-left: 5%;
+  }
+}

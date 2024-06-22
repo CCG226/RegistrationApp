@@ -1,0 +1,88 @@
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+section {
+  height: 100%;
+}
+#check {
+  vertical-align: bottom;
+}
+#labels {
+  color: #7b8ab8 !important;
+}
+.progress {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 15%;
+}
+select,
+input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80% !important;
+}
+#content {
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  .btn-group {
+    width: 35%;
+  }
+  form {
+    margin-top: 20%;
+  }
+  select,
+  input {
+    width: 70% !important;
+  }
+}
+@media (min-width: 768px) {
+  /* tablet*/
+  .btn-group {
+    width: 25%;
+  }
+  form {
+    margin-top: 10%;
+  }
+  select,
+  input {
+    width: 50% !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* laptop*/
+  .btn-group {
+    width: 15%;
+  }
+  form {
+    margin-top: 5%;
+  }
+  select,
+  input {
+    width: 20% !important;
+  }
+}
+@media (min-width: 1400px) {
+  /* desktops*/
+  .btn-group {
+    width: 10%;
+  }
+  form {
+    margin-top: 5%;
+  }
+  select,
+  input {
+    width: 10% !important;
+  }
+}
